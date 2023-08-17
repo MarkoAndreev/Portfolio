@@ -12,21 +12,21 @@
 
     <body>
         <header>
+
+            <h1>Marko's Portfolio</h1>
+
             <nav>
-                <h1> Marko's Portfolio</h1>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
                 
-                <div>
-                    <ul>
-                        <li><a href:><button class="nbutton">About Me</button></a></li>
-                        <li><a href:><button class="nbutton">Work</button></a></li>
-                        <li><a href:><button class="nbutton">Contact</button></a></li>
-                    </ul>
-                </div>
             </nav>
         </header>
 
-        <div class="aboutme">
-            <h2>About Me</h2>
+        <section class="aboutme">
+            <h2 id="about">About Me</h2>
 
             <p>
                 Hello my name is Marko I am a new software developer but have a history 
@@ -34,57 +34,49 @@
                 I am a team worker and love problem solving. I can't wait to continue
                 my software developer journey and learn so much more about making a great website.
             </p>
-        </div>
+        </section>
 
-        <div class="Work">
-            <h2>Work</h2>
+        <section class="work">
+            <h2 id="work">Work</h2>
 
-            
+            <div class="projects">
+                <div class="project first-project">
+                    <a href="https://markoandreev.github.io/First-Project/"><img src="./assets/images/first-project.JPG" alt="image of first project"></a>
+                    <h3>Horieson<h3>
+                </div>
 
-            <ul>
-                <li id="first">
-                    <h3>Horiseon</h3>
-                    <img src="./assets/images/first-project.JPG"/>
-                </li>
+                <div class="project">
+                    <img src="./assets/images/stock-photo-1.jpg" alt="">
+                    <h3>Project 2</h3>
+                </div>
 
-                <li id="second">
-                    <h3>AI Calculator</h3>
-                    <img src="./assets/images/stock-photo-1.jpg"/>
-                </li>
-
-                <li id="second">
-                    <h3>Stock App</h3>
-                    <img src="./assets/images/stock-photo-2.jpg"/>
-                </li>
-
-                <li id="fourth">
-                    <h3>VR</h3>
-                    <img src="./assets/images/stock-photo-3.jpg"/>
-                </li>
-
-                <li id="fifth">
-                    <h3>Cat Customizer</h3>
-                    <img src="./assets/images/stock-photo-4.jpg"/>
-                </li>
-            </ul>
-        </div>    
+                <div class="project">
+                    <img src="./assets/images/stock-photo-4.jpg" alt="">
+                    <h3>Project 3</h3>
+                </div>
+            </div>    
+        </section>    
         
-        <div class="Contact Me">
-            <ul>
-                <li>
-                    <label for="fullName">Full Name:</label>
-                    <input type="text" id="fullName" name="fullName">
-                </li>
-                <li>
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="email">
-                </li>
-                <li>
-                    <label for="maintext">Message:</label>
-                    <input type="text" id="maintext" name="maintext">
-                </li>
-            </ul>
-        </div>
+        <section class="contactMe">
+            <h2 id="contact">Contact Me</h2>
+
+            <div class="listContainer">
+                <ul>
+                    <li class="firstLI">
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="maintext">Message:</label>
+                        <input type="text" id="maintext" name="maintext">
+                    </li>
+                </ul>
+            </div>
+        </section>
 
     </body>
 </html>
