@@ -1,7 +1,5 @@
 # Portfolio
 
-##Acceptance Criteria
-
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
@@ -22,5 +20,10 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-##Project
+## Project
 
+[image of project](./assets/images/hw2.JPG)
+
+## What was done
+
+Made a portfolio using css and html!
